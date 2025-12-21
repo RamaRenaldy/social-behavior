@@ -139,7 +139,7 @@ elif nav == "Dataset":
 
         # --- TAB 3: DATA PRE-PROCESSED ---
         with tab3:
-            st.subheader("3. Data Siap Model (Encoded & Scaled)")
+            st.subheader("3. Data Siap Model (Encoded)")
             st.write("Data ini adalah hasil akhir yang akan masuk ke algoritma Machine Learning.")
             st.markdown("""
             * **Encoding:** Mengubah teks (Yes/No) menjadi angka (1/0).
@@ -402,4 +402,5 @@ elif nav == "About":
         st.write("""📈 **Business Intelligence**""")
                 
         st.write("""Aplikasi klasifikasi kepribadian ini dikembangkan sebagai bentuk implementasi keilmuan dalam menerapkan algoritma Machine Learning untuk menyelesaikan Uji Kompetensi BNSP Ilmuwan Data Muda.
+
                 """)
